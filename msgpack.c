@@ -13,6 +13,8 @@
 #include "ext/session/php_session.h" /* for php_session_register_serializer */
 #endif
 
+#define HAVE_APCU_SUPPORT 1
+
 #if defined(HAVE_APCU_SUPPORT)
 #include "apcu/apc_serializer.h"
 #endif /* HAVE_APCU_SUPPORT */
