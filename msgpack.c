@@ -14,7 +14,7 @@
 #endif
 
 #if defined(HAVE_APCU_SUPPORT)
-#include "ext/apcu/apc_serializer.h"
+#include "apcu/apc_serializer.h"
 #endif /* HAVE_APCU_SUPPORT */
 
 #include "php_msgpack.h"
